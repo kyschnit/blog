@@ -1,8 +1,7 @@
+<footer class="bg-primary">
+  <div class="container text-white">
 
-<div class="py-5 border-top">
-  <div class="container">
-
-    <p class="h5 mb-3">{{ site.title | escape }}</p>
+    <p class="h5 text-white mt-2 mb-3">{{ site.title | escape }}</p>
 
     <div class="row">
 
@@ -10,17 +9,17 @@
         <ul class="list-unstyled">
           <li>
             {%- if site.author -%}
-              {{ site.author | escape }}
+            website created by <strong>{{ site.author | escape }}</strong>
             {%- else -%}
-              {{ site.title | escape }}
+            {{ site.title | escape }}
             {%- endif -%}
           </li>
           {%- if site.email -%}
-            <li>
-              <a href="mailto:{{ site.email }}">
-                {{ site.email }}
-              </a>
-            </li>
+          <li>
+            <a class="text-light" href="mailto:{{ site.email }}">
+              {{ site.email }}
+            </a>
+          </li>
           {%- endif -%}
         </ul>
       </div>
@@ -33,4 +32,4 @@
     </div>
 
   </div>
-</div>
+</footer>
