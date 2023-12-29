@@ -29,6 +29,8 @@ instagram_username: k.schnitzer
 github_username: kyschnit
 linkedin_username: kyleschnitzer
 
+markdown: GFM
+
 # Build settings
 theme: minima
 plugins:

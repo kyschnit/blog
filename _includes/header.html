@@ -10,7 +10,7 @@
         <a class="nav-link text-decoration-none"" href="/">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-decoration-none" href="{{ '/' | relative_url }}">Blog</a>
+        <a class="nav-link active text-decoration-none" href="{{ '/' | relative_url }}">Blog</a>
       </li>
       {%- for path in page_paths -%}
       {%- assign my_page = site.pages | where: "path", path | first -%}
