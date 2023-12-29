@@ -20,13 +20,14 @@
 
 title: kyle's thoughts
 author: kyle schnitzer
-email: schnitzerkyle@gmail.com
+email: kyschnit@umich.edu
 description: >- # this means to ignore newlines until "baseurl:"
   i am a software engineer and i like to go outside. all opinions are my own.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://kyschnit.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: k.schnitzer
 github_username: kyschnit
+linkedin_username: kyleschnitzer
 
 # Build settings
 theme: minima
